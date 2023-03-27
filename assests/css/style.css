@@ -1,0 +1,28 @@
+:root {--branding: red;}
+
+body {font-family: 'Montserrat', sans-serif;}
+.header .navbar-nav .nav-link{padding: 0 55px;}
+.header .nav-link:focus, .header .nav-link:hover {color: var(--branding);}
+.header .nav-link { font-weight: 600; color:#252B42; }
+.hero-section {background:url(../images/Banner.png); background-repeat: no-repeat; background-size: cover; padding:60px 0 150px 0;}
+.top-heading {font-size: 24px; font-weight: 700; color:#F6F6F6; line-height: 36px;margin-bottom: 17px;}
+.main-heading {font-size: 58px; font-family: 'Poppins', sans-serif; font-weight: 700; color:#fff;    line-height: 80px;margin-bottom: 27px;}
+p{font-size: 24px; color:#F6F6F6; font-weight: 500; line-height: 38px;}
+.actions {margin-top: 54px;z-index:1; position: relative;}
+.btn-primary {background:transparent;  font-size: 24px; font-weight: 700; border:1px solid #fff; border-radius: 30px; padding: 16px 58px;}
+.btn.btn-primary:hover,.btn.btn-primary:active{background-color:var(--branding); border-color:var(--branding);}
+.hero-image {text-align: center;} 
+.hero-image img {margin-top: -290px;    margin-left: -190px;max-width: 100%;}
+.sub-heading {color:#000000; line-height: 36px; font-size: 44px;font-family: 'Poppins', sans-serif; text-align: center;}
+.how-to-start hr{border-width:3px; border-color:#E4E4E4; margin-bottom: 72.09px;}
+.features .top-heading {color:#FA4A0C;}
+.sub-section-heading {color:#252B42; font-size: 40px; line-height: 57px; font-weight: 700;}
+.features p {color:#737373;}
+.features {margin: 100px 0;}
+.footer-top {background:url(../images/footer-bg.png); background-repeat: no-repeat; background-size: cover; padding:130px 0;    }
+.footer-top .sub-section-heading{color:#fff}
+.footer-top .actions .btn {border-radius: 10px;}
+.footer-bottom {padding:37px 0 50px 0;}
+.social-link ul{list-style: none; display: flex; margin: 0px; padding: 0px; justify-content: center;}
+.social-link ul li {margin: 0 24px;}
+.footer-bottom .copyright {    margin-bottom: 0px;font-family: 'Poppins', sans-serif; color:#5C5C5C; font-size:12px; font-weight: 700;}
